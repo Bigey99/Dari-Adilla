@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Untuk Temanku</title>
+  <link rel="stylesheet" href="style.css">
+  <meta property="og:title" content="Untuk Temanku">
+  <meta property="og:description" content="Kenangan indah bersama sahabat tercinta.">
+  <meta property="og:image" content="imgfoto1.jpg.jpg">
+  <meta property="og:type" content="website">
+</head>
+<body>
+  <canvas id="rain"></canvas>
+
+  <h1>✨ Untuk Sararia ✨</h1>
+
+  <audio id="music" src="everything u are.mp3" preload="auto" autoplay loop></audio>
+
+  <div class="slider">
+    <img id="photo" src="imgfoto1.jpg.jpg" alt="Teman" />
+    <p id="caption"></p>
+    <div class="controls">
+      <button onclick="prevSlide()">⬅️ Sebelumnya</button>
+      <button onclick="nextSlide()">Berikutnya ➡️</button>
+    </div>
+  </div>
+
+  <div id="finalMessage" class="hidden">
+    <div class="envelope">
+      <div class="flap"></div>
+      <div class="letter">
+        <p><strong>“Selamat Berjuang! Aku Bangga Pada Kalian Tapi Boong Yhaahahaah”</strong></p>
+      </div>
+    </div>
+    <button onclick="sharePage()" class="shareBtn">🔗 Bagikan Halaman Ini</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
